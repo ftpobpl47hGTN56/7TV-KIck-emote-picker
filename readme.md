@@ -48,7 +48,7 @@ and again bunch of useless  things and a lot of TS code .
 ![Platform](https://img.shields.io/badge/platform-Chrome%20%2F%20Chromium-yellow?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
-[![Download](https://img.shields.io/badge/Download-v1.3203.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7TV-KIck-Emote-Picker-emote-Picker/releases/download/v1.3203.26/7TV-KIck-Emote-Picker_Emote_picker.zip)
+[![Download](https://img.shields.io/badge/Download-v0.34.26.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7TV-KIck-emote-picker/releases/download/0.34.26-kick-empck/v0.34.26-kick7tv-emotes-picker.zip)
 
 
 # Button emote picker
