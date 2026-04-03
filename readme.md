@@ -1,7 +1,11 @@
  # 7BTVFZ-emote-Picker
 browser extension popout Kick-7tv panel emote-picker for Kick-chat.
+
+ # Button emote picker
  <img width="376" height="179" alt="image" src="https://github.com/user-attachments/assets/9b3d5caf-68b5-445c-9d5b-824341b08ac3" />
 
+# Popout picker
+<img width="579" height="678" alt="image" src="https://github.com/user-attachments/assets/f3a70618-1621-4644-815c-4abe246431a0" />
 
 
 
