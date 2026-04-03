@@ -1,21 +1,6 @@
  # 7BTVFZ-emote-Picker
 browser extension popout Kick-7tv panel emote-picker for Kick-chat.
-
- # Button emote picker
- <img width="376" height="179" alt="image" src="https://github.com/user-attachments/assets/9b3d5caf-68b5-445c-9d5b-824341b08ac3" />
-
-# Popout picker
-<img width="579" height="678" alt="image" src="https://github.com/user-attachments/assets/f3a70618-1621-4644-815c-4abe246431a0" />
-
-
-
-![Version](https://img.shields.io/badge/version-0.34.26-blueviolet?style=flat-square)
-![Manifest](https://img.shields.io/badge/Manifest-V3-blue?style=flat-square)
-![Platform](https://img.shields.io/badge/platform-Chrome%20%2F%20Chromium-yellow?style=flat-square)
-![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
-
-[![Download](https://img.shields.io/badge/Download-v1.3203.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7BTVFZ-emote-Picker/releases/download/v1.3203.26/7BTVFZ_Emote_picker.zip)
-
+ 
 
 # KIck-7TV-emote-picker
 **Convenient, fast and beautiful emote picker for kick chat**
@@ -57,6 +42,19 @@ and again bunch of useless  things and a lot of TS code .
  
 
 
- 
+
+![Version](https://img.shields.io/badge/version-0.34.26-blueviolet?style=flat-square)
+![Manifest](https://img.shields.io/badge/Manifest-V3-blue?style=flat-square)
+![Platform](https://img.shields.io/badge/platform-Chrome%20%2F%20Chromium-yellow?style=flat-square)
+![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+
+[![Download](https://img.shields.io/badge/Download-v1.3203.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7BTVFZ-emote-Picker/releases/download/v1.3203.26/7BTVFZ_Emote_picker.zip)
+
+
+# Button emote picker
+ <img width="376" height="179" alt="image" src="https://github.com/user-attachments/assets/9b3d5caf-68b5-445c-9d5b-824341b08ac3" />
+
+# Popout picker
+<img width="579" height="678" alt="image" src="https://github.com/user-attachments/assets/f3a70618-1621-4644-815c-4abe246431a0" /> 
  
  
