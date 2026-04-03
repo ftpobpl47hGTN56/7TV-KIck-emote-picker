@@ -1,4 +1,4 @@
- # 7TV-KIck-Emote-Picker-emote-Picker
+ # 7TV-KIck-Emote-Picker 
 browser extension popout Kick-7tv panel emote-picker for Kick-chat.
  
 
