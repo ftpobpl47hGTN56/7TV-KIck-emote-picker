@@ -59,6 +59,6 @@ and again bunch of useless  things and a lot of TS code .
  <img width="376" height="179" alt="image" src="https://github.com/user-attachments/assets/9b3d5caf-68b5-445c-9d5b-824341b08ac3" />
 
 # Popout picker
-<img width="579" height="678" alt="image" src="https://github.com/user-attachments/assets/203d52dd-cab6-4333-afc3-fa8985300db6" />
+ <img width="765" height="609" alt="image" src="https://github.com/user-attachments/assets/5673b82d-5592-4631-a531-26fa86646b74" />
  
  
