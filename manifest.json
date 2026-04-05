@@ -1,0 +1,62 @@
+{
+  "manifest_version": 3,
+  "name": "[Kick] 7TV Emote Picker ",
+  "version": "0.34.26",
+  "description": "7TV emote picker for Kick.com chat",
+  "icons": {
+    "48":  "imgs/emotepicker5trh5rjjmftmft.png",
+    "64":  "imgs/emotepicker5trh5rjjmftmft.png",
+    "128": "imgs/emotepicker5trh5rjjmftmft.png",
+    "256": "imgs/emotepicker5trh5rjjmftmft.png"
+  },
+  "permissions": [
+    "storage" 
+  ],
+  "host_permissions": [
+    "https://kick.com/*",
+    "*://*.kick.com/*",
+    "https://7tv.app/*",
+    "https://7tv.io/*",
+    "*://7tv.io/*",
+    "*://events.7tv.io/*",
+    "wss://events.7tv.io/*",
+    "https://api.betterttv.net/*",
+    "https://cdn.betterttv.net/*",
+    "*://cdn.betterttv.net/*",
+    "https://api.frankerfacez.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.kick.com/*",
+        "https://kick.com/*"
+      ],
+      "js": [
+          "content.js", 
+          "chat/emote-events.js",
+          "chat/send_in-chat_from-popup-emote.js",
+          "chat/autocomplete.js",
+          "chat/mod-actions_deleted_messages.js" 
+       ],
+      "run_at": "document_idle" 
+     
+    } 
+   
+  ],
+  "background": {
+    "service_worker": "background.js" 
+   },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "picker.html",
+        "picker.css",
+        "picker_popout/*",
+        "chat/*",
+        "imgs/*"
+      ],
+      "matches": ["<all_urls>"]
+      
+    }
+  ]
+}
