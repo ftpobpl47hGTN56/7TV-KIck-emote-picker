@@ -8,16 +8,14 @@ browser extension popout Kick-7tv panel emote-picker for Kick-chat.
  ## KIck-7TV-emote-picker
 **Convenient, fast and beautiful emote picker for kick chat**
 
-<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/a3f995cf-de9c-4335-91ed-2b4d3aa8bd58" />
-
+ 
 A just another cool alternative,
 to the NipahTV Extension,
 emote-picker which is has a bunch of mess in his project structure .
 and again bunch of useless  things and a lot of TS code .
 
-<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/409ee9c2-4bc2-418c-8dd3-12a18e27e5ee" />
-
- ##   Features
+ 
+ ## Features
 - Full **7TV** support (including zero-width, layers, latest 2025–2026  )
  - Extremely fast **virtualized list** — smooth scrolling even with 15,000+ emotes
 - Autocomplete when typing `:name` (like in the twitch chat or kick)
@@ -28,8 +26,7 @@ and again bunch of useless  things and a lot of TS code .
 - “Send to chat” button directly from the emote popup
 - Responsive dark design with pleasant animations
 
-<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/89e0b480-1292-45cf-964e-fad33f95ae45" />
-
+ 
 ## Why it's better than the built-in NipahTV  ?
  | Feature                                | NipahTV (2025–2026) | 7TV-KIck-Picker   |
 |----------------------------------------|---------------------|-------------------|
@@ -53,7 +50,7 @@ and again bunch of useless  things and a lot of TS code .
 4. Click “Load unpacked” → select the folder containing `manifest.json`
  
 
- [![Download](https://img.shields.io/badge/Download-v1.54.26.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7TV-KIck-emote-picker/releases/download/1.54.26/v1.54.267tvemote-picker.zip)
+[![Download](https://img.shields.io/badge/Download-v1.54.26.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7TV-KIck-emote-picker/releases/download/1.54.26/v1.54.267tvemote-picker.zip)
 
 ![Version](https://img.shields.io/badge/version-1.54.26-blueviolet?style=flat-square)
 
@@ -66,10 +63,10 @@ and again bunch of useless  things and a lot of TS code .
 
 
 
+<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/c698e30c-7aee-40e2-89aa-0ab7a41cbbc2" />
 
 
-##<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/e7dec045-2cdf-4d76-9ba8-eb950b60e5ae" />
-## Button emote picker
+ ## Button emote picker
  <img width="376" height="179" alt="image" src="https://github.com/user-attachments/assets/9b3d5caf-68b5-445c-9d5b-824341b08ac3" />
 
 ## Popout picker
