@@ -46,21 +46,26 @@ and again bunch of useless  things and a lot of TS code .
  
 
 
+[![Download](https://img.shields.io/badge/Download-v1.54.26.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7TV-KIck-emote-picker/releases/download/1.54.26/v1.54.267tvemote-picker.zip)
 
 ![Version](https://img.shields.io/badge/version-1.54.26-blueviolet?style=flat-square)
+
 ![Manifest](https://img.shields.io/badge/Manifest-V3-blue?style=flat-square)
+
 ![Platform](https://img.shields.io/badge/platform-Chrome%20%2F%20Chromium-yellow?style=flat-square)
+
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 
-[![Download](https://img.shields.io/badge/Download-v1.54.26.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7TV-KIck-emote-picker/releases/download/1.54.26/v1.54.267tvemote-picker.zip)
 
 
 
-# Button emote picker
+
+
+## Button emote picker
  <img width="376" height="179" alt="image" src="https://github.com/user-attachments/assets/9b3d5caf-68b5-445c-9d5b-824341b08ac3" />
 
-# Popout picker
- <img width="765" height="609" alt="image" src="https://github.com/user-attachments/assets/5673b82d-5592-4631-a531-26fa86646b74" />
+## Popout picker
+<img width="899" height="690" alt="image" src="https://github.com/user-attachments/assets/cb54c09e-2e40-49d2-938f-0f7d0c5986b9" />
  
  
