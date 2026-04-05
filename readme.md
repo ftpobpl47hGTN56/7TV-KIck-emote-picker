@@ -35,9 +35,13 @@ and again bunch of useless  things and a lot of TS code .
 | Handling of Twitch SPA navigation      | Average             | Average           |
 
 ## Installation (currently for developers only)
-1. Download the repository as ZIP
-2. Go to Chrome → `chrome://extensions/`
-3. Enable “Developer mode”
+1. Download the repository as ZIP,
+    unpack it>
+2. If you are User-chrome > Go to Chrome settings > `chrome://extensions/`
+3. Enable “Developer mode”>
+    dropp the folder which is > v1.54.26,
+    done.
+    if you are fireFox user:
 4. Click “Load unpacked” → select the folder containing `manifest.json`
  
 
