@@ -3,9 +3,8 @@
 
 browser extension popout Kick-7tv panel emote-picker for Kick-chat.
  
- <img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/9bfa240d-3a1f-4d7d-b398-828a5dccc713" />
 
- ## KIck-7TV-emote-picker
+## KIck-7TV-emote-picker
 **Convenient, fast and beautiful emote picker for kick chat**
 
  
@@ -15,7 +14,7 @@ emote-picker which is has a bunch of mess in his project structure .
 and again bunch of useless  things and a lot of TS code .
 
  
- ## Features
+## Features
 - Full **7TV** support (including zero-width, layers, latest 2025–2026  )
  - Extremely fast **virtualized list** — smooth scrolling even with 15,000+ emotes
 - Autocomplete when typing `:name` (like in the twitch chat or kick)
@@ -26,7 +25,9 @@ and again bunch of useless  things and a lot of TS code .
 - “Send to chat” button directly from the emote popup
 - Responsive dark design with pleasant animations
 
- 
+
+<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/8269ec4e-e2da-4d4d-b0b0-7078b3f0c03d" />
+
 ## Why it's better than the built-in NipahTV  ?
  | Feature                                | NipahTV (2025–2026) | 7TV-KIck-Picker   |
 |----------------------------------------|---------------------|-------------------|
@@ -38,6 +39,8 @@ and again bunch of useless  things and a lot of TS code .
 | Hover tooltip with author & preview    | Yes                 | Yes               |
 | Separate   popout window               | No                  | Yes               |
 | Handling of Twitch SPA navigation      | Average             | Average           |
+
+<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/608726d3-636d-40e3-adfd-efe7213f64b1" />
 
 ## Installation (currently for developers only)
 1. Download the repository as ZIP,
@@ -61,13 +64,9 @@ and again bunch of useless  things and a lot of TS code .
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 
-
-
-<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/c698e30c-7aee-40e2-89aa-0ab7a41cbbc2" />
-
-
- ## Button emote picker
- <img width="376" height="179" alt="image" src="https://github.com/user-attachments/assets/9b3d5caf-68b5-445c-9d5b-824341b08ac3" />
+ 
+## Button emote picker
+<img width="376" height="179" alt="image" src="https://github.com/user-attachments/assets/9b3d5caf-68b5-445c-9d5b-824341b08ac3" />
 
 ## Popout picker
 <img width="899" height="690" alt="image" src="https://github.com/user-attachments/assets/cb54c09e-2e40-49d2-938f-0f7d0c5986b9" />
