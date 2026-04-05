@@ -1,4 +1,4 @@
- # 7TV-KIck-Emote-Picker 
+  # 7TV-KIck-Emote-Picker 
 browser extension popout Kick-7tv panel emote-picker for Kick-chat.
  
 
@@ -43,12 +43,12 @@ and again bunch of useless  things and a lot of TS code .
 
 
 
-![Version](https://img.shields.io/badge/version-0.34.26-blueviolet?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.54.26-blueviolet?style=flat-square)
 ![Manifest](https://img.shields.io/badge/Manifest-V3-blue?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Chrome%20%2F%20Chromium-yellow?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
-[![Download](https://img.shields.io/badge/Download-v0.34.26.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7TV-KIck-emote-picker/releases/download/0.34.26-kick-empck/v0.34.26-kick7tv-emotes-picker.zip)
+[![Download](https://img.shields.io/badge/Download-v1.54.26.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7TV-KIck-emote-picker/releases/download/1.54.26/v1.54.26-7tvemote-kick.zip)
 
 
 # Button emote picker
