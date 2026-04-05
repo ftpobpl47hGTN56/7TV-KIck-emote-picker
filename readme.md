@@ -1,18 +1,23 @@
-  # 7TV-KIck-Emote-Picker  v1.54.26
+## 7TV-KIck-Emote-Picker  v1.54.26 
+<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/3b443fc8-b694-4729-907f-55df50cf1b09" />
+
 browser extension popout Kick-7tv panel emote-picker for Kick-chat.
  
+ <img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/9bfa240d-3a1f-4d7d-b398-828a5dccc713" />
 
-##<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/e7dec045-2cdf-4d76-9ba8-eb950b60e5ae" />
-## KIck-7TV-emote-picker
+ ## KIck-7TV-emote-picker
 **Convenient, fast and beautiful emote picker for kick chat**
+
+<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/a3f995cf-de9c-4335-91ed-2b4d3aa8bd58" />
 
 A just another cool alternative,
 to the NipahTV Extension,
 emote-picker which is has a bunch of mess in his project structure .
 and again bunch of useless  things and a lot of TS code .
 
-##<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/e7dec045-2cdf-4d76-9ba8-eb950b60e5ae" />
-##   Features
+<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/409ee9c2-4bc2-418c-8dd3-12a18e27e5ee" />
+
+ ##   Features
 - Full **7TV** support (including zero-width, layers, latest 2025–2026  )
  - Extremely fast **virtualized list** — smooth scrolling even with 15,000+ emotes
 - Autocomplete when typing `:name` (like in the twitch chat or kick)
@@ -23,9 +28,10 @@ and again bunch of useless  things and a lot of TS code .
 - “Send to chat” button directly from the emote popup
 - Responsive dark design with pleasant animations
 
+<img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/89e0b480-1292-45cf-964e-fad33f95ae45" />
+
 ## Why it's better than the built-in NipahTV  ?
-##<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/e7dec045-2cdf-4d76-9ba8-eb950b60e5ae" />
-| Feature                                | NipahTV (2025–2026) | 7TV-KIck-Picker   |
+ | Feature                                | NipahTV (2025–2026) | 7TV-KIck-Picker   |
 |----------------------------------------|---------------------|-------------------|
 | List virtualization (fast scrolling)   | No / weak           | Full              |
 | 7TV zero-width layers                  | Partial             | Full support      |
@@ -47,8 +53,7 @@ and again bunch of useless  things and a lot of TS code .
 4. Click “Load unpacked” → select the folder containing `manifest.json`
  
 
-##<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/e7dec045-2cdf-4d76-9ba8-eb950b60e5ae" />
-[![Download](https://img.shields.io/badge/Download-v1.54.26.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7TV-KIck-emote-picker/releases/download/1.54.26/v1.54.267tvemote-picker.zip)
+ [![Download](https://img.shields.io/badge/Download-v1.54.26.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7TV-KIck-emote-picker/releases/download/1.54.26/v1.54.267tvemote-picker.zip)
 
 ![Version](https://img.shields.io/badge/version-1.54.26-blueviolet?style=flat-square)
 
