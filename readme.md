@@ -2,7 +2,8 @@
 browser extension popout Kick-7tv panel emote-picker for Kick-chat.
  
 
-# KIck-7TV-emote-picker
+##<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/e7dec045-2cdf-4d76-9ba8-eb950b60e5ae" />
+## KIck-7TV-emote-picker
 **Convenient, fast and beautiful emote picker for kick chat**
 
 A just another cool alternative,
@@ -10,6 +11,7 @@ to the NipahTV Extension,
 emote-picker which is has a bunch of mess in his project structure .
 and again bunch of useless  things and a lot of TS code .
 
+##<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/e7dec045-2cdf-4d76-9ba8-eb950b60e5ae" />
 ##   Features
 - Full **7TV** support (including zero-width, layers, latest 2025–2026  )
  - Extremely fast **virtualized list** — smooth scrolling even with 15,000+ emotes
@@ -22,7 +24,7 @@ and again bunch of useless  things and a lot of TS code .
 - Responsive dark design with pleasant animations
 
 ## Why it's better than the built-in NipahTV  ?
-
+##<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/e7dec045-2cdf-4d76-9ba8-eb950b60e5ae" />
 | Feature                                | NipahTV (2025–2026) | 7TV-KIck-Picker   |
 |----------------------------------------|---------------------|-------------------|
 | List virtualization (fast scrolling)   | No / weak           | Full              |
@@ -45,7 +47,7 @@ and again bunch of useless  things and a lot of TS code .
 4. Click “Load unpacked” → select the folder containing `manifest.json`
  
 
-
+##<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/e7dec045-2cdf-4d76-9ba8-eb950b60e5ae" />
 [![Download](https://img.shields.io/badge/Download-v1.54.26.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7TV-KIck-emote-picker/releases/download/1.54.26/v1.54.267tvemote-picker.zip)
 
 ![Version](https://img.shields.io/badge/version-1.54.26-blueviolet?style=flat-square)
@@ -61,7 +63,7 @@ and again bunch of useless  things and a lot of TS code .
 
 
 
-
+##<img width="64" height="64" alt="image" src="https://github.com/user-attachments/assets/e7dec045-2cdf-4d76-9ba8-eb950b60e5ae" />
 ## Button emote picker
  <img width="376" height="179" alt="image" src="https://github.com/user-attachments/assets/9b3d5caf-68b5-445c-9d5b-824341b08ac3" />
 
