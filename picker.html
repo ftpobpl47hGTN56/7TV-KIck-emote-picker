@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>7BTVFZ Emote Picker v2.024.26</title>
+  <title>7BTVFZ Emote Picker v1.54.26</title>
   <link rel="stylesheet" href="picker.css">
 </head>
 <body>
@@ -19,10 +19,10 @@
         <button class="lang-btn active" data-lang="ru">Russian</button> 
       </div>
 
-      <div class="privacy-body v2.024.26">
+      <div class="privacy-body v1.54.26">
       <!-- Русская версия -->
         <div class="content-ru active">
-          <p>Расширение <strong>7BTVFZ Emote Picker v2.024.26</strong> для Twitch <span class="highlight">не собирает</span>, <span class="highlight">не хранит</span>, <span class="highlight">не использует</span> и <span class="highlight">не передаёт</span> никакие персональные данные пользователя.</p>
+          <p>Расширение <strong>7BTVFZ Emote Picker v1.54.26</strong> для Twitch <span class="highlight">не собирает</span>, <span class="highlight">не хранит</span>, <span class="highlight">не использует</span> и <span class="highlight">не передаёт</span> никакие персональные данные пользователя.</p>
           <p>Единственные данные, которые сохраняются — это <span class="highlight">список избранных смайликов</span>. Они хранятся исключительно локально в браузере пользователя с помощью <code>chrome.storage.local</code> и <span class="highlight">никогда</span> не отправляются на какие-либо серверы, третьим лицам или разработчику.</p>
           <p>Расширение работает полностью оффлайн в части хранения и обработки ваших предпочтений.
             Наслаждайтесь комфортным опытом использования . 
@@ -32,7 +32,7 @@
 
       <!-- Английская версия -->
       <div class="content-en">
-        <p>The <strong>7BTVFZ Emote Picker v2.024.26</strong> extension for Twitch <span class="highlight">does not collect</span>, <span class="highlight">store</span>, <span class="highlight">use</span>, or <span class="highlight">transmit</span> any personal user data.</p>
+        <p>The <strong>7BTVFZ Emote Picker v1.54.26</strong> extension for Twitch <span class="highlight">does not collect</span>, <span class="highlight">store</span>, <span class="highlight">use</span>, or <span class="highlight">transmit</span> any personal user data.</p>
         <p>The only data that is saved is the <span class="highlight">list of favorite emotes</span>. 
           It is stored exclusively locally in the user's browser using <code>chrome.storage.local</code> and is <span class="highlight">never</span> sent to any servers,
           third parties, or the developer.</p>
@@ -49,9 +49,9 @@
     <!-- ── Header ── -->
     <div class="header">
       <span class="logo">7BTVFZ</span>
-      <span class="header-title"> v2.024.26 </span>
+      <span class="header-title"> v1.54.26 </span>
       <span class="header-channel" id="header-channel">—</span>
-     <button class="privacy-btn" id="privacy-btn" title="Privacy Policy v2.024.26">Privacy Policy
+     <button class="privacy-btn" id="privacy-btn" title="Privacy Policy v1.54.26">Privacy Policy
   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>Outline-privacy-tip SVG Icon</title><path fill="#ba8af4" d="m12 3.19l7 3.11V11c0 4.52-2.98 8.69-7 9.93c-4.02-1.24-7-5.41-7-9.93V6.3zM12 1L3 5v6c0 5.55 3.84 10.74 9 12c5.16-1.26 9-6.45 9-12V5zm-1 6h2v2h-2zm0 4h2v6h-2z"/></svg>
     </div> 
     <div class="body-wrap">
@@ -95,6 +95,22 @@
       </svg>
       Global
   </div>
+  <!-- ── Kick tab ── -->
+    <div class="tab-group-label">Kick</div>
+    <div class="tab" data-tab="kick-ch">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+        <title>Kick Channel Emotes</title>
+        <path fill="#53fc18" d="M4 2h4v8l6-8h5L12 12l7 10h-5l-6-8v8H4z"/>
+      </svg>
+      Kick Ch
+    </div>
+    <div class="tab" data-tab="kick-gl">
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+        <title>Kick Global Emotes</title>
+        <path fill="#53fc18" d="M4 2h4v8l6-8h5L12 12l7 10h-5l-6-8v8H4z"/>
+      </svg>
+      Kick GL
+    </div>
     <!-- ── BTTV tab ── -->
     
         <!-- ── FFZ tab ── -->

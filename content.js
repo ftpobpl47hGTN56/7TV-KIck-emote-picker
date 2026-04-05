@@ -749,7 +749,7 @@
   // for the custom DOM event it dispatches on emote set changes.
   function listenForEmoteSetChanges(channel) {
     let refreshDebounce = null;
-    document.addEventListener('sep-7btvfz-emote-set-changed', () => {
+    document.addEventListener('sep-7tv-motes-picker-emote-set-changed', () => {
       clearTimeout(refreshDebounce);
       refreshDebounce = setTimeout(() => refreshEmotes(channel), 500);
     });

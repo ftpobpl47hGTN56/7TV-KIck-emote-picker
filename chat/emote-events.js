@@ -1,7 +1,7 @@
 // ============================================================
 //  7TV Emote Events Tracker — emote-events.js (Kick version)
 //  Subscribes to 7TV WebSocket API to detect emote set changes.
-//  Dispatches a custom DOM event 'sep-7btvfz-emote-set-changed'
+//  Dispatches a custom DOM event 'sep-7tv-motes-picker-emote-set-changed'
 //  which content.js listens to for triggering a refresh.
 // ============================================================
 
@@ -143,7 +143,7 @@
       if (pushed + pulled + updated > 0) {
         console.log(`[SEP Events] Emote set changed: +${pushed} -${pulled} ~${updated}`);
         // Notify content.js
-        document.dispatchEvent(new CustomEvent('sep-7btvfz-emote-set-changed', {
+        document.dispatchEvent(new CustomEvent('sep-7tv-motes-picker-emote-set-changed', {
           detail: { pushed, pulled, updated },
         }));
       }

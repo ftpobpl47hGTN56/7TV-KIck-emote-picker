@@ -1,5 +1,5 @@
 // ============================================================
-//  7BTVFZ Emote Autocomplete — autocomplete.js (Kick version)
+//  7tv-motes-picker Emote Autocomplete — autocomplete.js (Kick version)
 //  Shows a dropdown of matching emotes as you type in Kick chat.
  // ============================================================
 (function () {

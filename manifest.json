@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "[Kick] 7TV Emote Picker ",
-  "version": "0.34.26",
+  "version": "1.54.26",
   "description": "7TV emote picker for Kick.com chat",
   "icons": {
     "48":  "imgs/emotepicker5trh5rjjmftmft.png",
@@ -15,6 +15,7 @@
   "host_permissions": [
     "https://kick.com/*",
     "*://*.kick.com/*",
+     "https://files.kick.com/*",
     "https://7tv.app/*",
     "https://7tv.io/*",
     "*://7tv.io/*",

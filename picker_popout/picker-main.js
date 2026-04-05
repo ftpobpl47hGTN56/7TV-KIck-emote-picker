@@ -78,7 +78,7 @@ async function init() {
         if (m) {
           channelName = m[1].toLowerCase();
           headerCh.textContent = m[1];
-          document.title = `7BTVFZ — ${m[1]}`;
+          document.title = `7tv-motes-picker — ${m[1]}`;
         }
       }
       resolve();
@@ -90,6 +90,17 @@ async function init() {
   await loadSkinTone();
   state.emotesByTab.favs = [...favoritesMap.values()];
   renderGrid();
+
+  // Kick emotes — грузим параллельно, не блокируем UI
+  if (channelName) {
+    loadKickEmotes(channelName).then(() => {
+      if (state.activeTab === 'kick-ch' || state.activeTab === 'kick-gl') {
+        renderGrid();
+      }
+    });
+  } else {
+    state.kickLoaded = true; // нет канала — разблокируем сразу
+  }
 
   const resp = await sendToContent({ type: 'GET_EMOTES' });
   if (!resp) {
@@ -118,7 +129,6 @@ async function init() {
     }, 500);
   }
 }
-
 init();
 
 // ── Privacy Policy Modal ──────────────────────────────────────────────────────
