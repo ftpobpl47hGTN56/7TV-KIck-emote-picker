@@ -1,4 +1,4 @@
-## 7TV-KIck-Emote-Picker  v1.54.26 
+## 7TV-KIck-Emote-Picker  v1.805.26 
 <img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/3b443fc8-b694-4729-907f-55df50cf1b09" />
 
 browser extension popout Kick-7tv panel emote-picker for Kick-chat.
@@ -47,15 +47,15 @@ and again bunch of useless  things and a lot of TS code .
     unpack it>
 2. If you are User-chrome > Go to Chrome settings > `chrome://extensions/`
 3. Enable “Developer mode”>
-    dropp the folder which is > v1.54.26,
+    dropp the folder which is > v1.805.26,
     done.
     if you are fireFox user:
 4. Click “Load unpacked” → select the folder containing `manifest.json`
  
 
-[![Download](https://img.shields.io/badge/Download-v1.54.26.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7TV-KIck-emote-picker/releases/download/1.54.26/v1.54.267tvemote-picker.zip)
+[![Download](https://img.shields.io/badge/Download-v1.805.26.2026-brightgreen?style=flat-square&logo=github)](https://github.com/ftpobpl47hGTN56/7TV-KIck-emote-picker/releases/download/v1.805.26/7tbkick_v1.805.26.zip)
 
-![Version](https://img.shields.io/badge/version-1.54.26-blueviolet?style=flat-square)
+![Version](https://img.shields.io/badge/version-1.805.26-blueviolet?style=flat-square)
 
 ![Manifest](https://img.shields.io/badge/Manifest-V3-blue?style=flat-square)
 
