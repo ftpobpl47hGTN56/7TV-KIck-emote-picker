@@ -39,12 +39,17 @@
      // /popout/channelname/chat → извлечь channelname
     const popoutMatch = path.match(/^\/popout\/([^/?#]+)/);
     if (popoutMatch) return popoutMatch[1].toLowerCase();
+  //  НОВОЕ: dashboard.kick.com/moderator/channelname
+  const moderatorMatch = path.match(/^\/moderator\/([^/?#]+)/);
+  if (moderatorMatch) return moderatorMatch[1].toLowerCase();
+
     
-    const SKIP = new Set([
-      'browse','popout', 'categories', 'following', 'subscriptions',
-      'settings', 'clips', 'clip', 'dashboard', 'creator-dashboard',
-      'search', 'en', 'fr', 'de', 'es', 'pt', 'ko', 'ja', 'ru',
-      'api', 'auth', 'terms', 'privacy', 'about',
+     const SKIP = new Set([
+      'browse','popout','categories','following','subscriptions',
+      'settings','clips','clip','dashboard','creator-dashboard',
+      'search','en','fr','de','es','pt','ko','ja','ru',
+      'api','auth','terms','privacy','about',
+      'moderator', //  НОВОЕ: на случай если попадает в общий branch
     ]);
     const m = path.match(/^\/([^/?#]+)/);
     if (m && !SKIP.has(m[1].toLowerCase())) return m[1].toLowerCase();
@@ -528,9 +533,9 @@
       top: 50% !important;
       left: 50% !important;
       transform: translate(-50%, -50%) !important;
-      z-index: 1;
+      z-index: 12000000  !important;
       max-height: none !important;
-      height: auto !important;
+      height: 54px !important;
       width: auto !important;
     }
 
@@ -551,6 +556,24 @@
       0%, 100% { opacity: 1; }
       50%       { opacity: .4; }
     }
+      /* Нативный Kick-эмоут внутри SEP-обёртки (для ZW overlay) */
+.sep-emote-wrap--kick-native {
+  display: inline-block;
+  position: relative;
+  line-height: 0;
+  vertical-align: middle;
+    z-index: 999999;
+}
+
+/* Kick рендерит span[data-emote-id] как inline-block с absolute внутри —
+   нам нужно убрать его собственный position:relative чтобы overlay
+   позиционировался относительно SEP-обёртки, а не Kick-спана */
+.sep-emote-wrap--kick-native > span[data-emote-id],
+.sep-emote-wrap--kick-native > span[data-emote-name] {
+  position: static !important;
+   z-index: 999999;
+}
+
     `;
     document.head.appendChild(s);
   }
@@ -687,25 +710,55 @@
 
   // Post-process: move ZW emotes as overlays on their preceding non-ZW wrap
   function attachZeroWidthOverlays(container) {
-    const wraps = Array.from(container.querySelectorAll('.sep-emote-wrap'));
-    for (let i = 1; i < wraps.length; i++) {
-      const wrap = wraps[i];
-      const img  = wrap.querySelector('.sep-emote-base');
-      if (!img) continue;
-      const e = emoteMap.get(img.alt);
-      if (!e?.zeroWidth) continue;
+  // Собираем ВСЕ эмоут-элементы в порядке DOM:
+  // — SEP-обёртки (.sep-emote-wrap)
+  // — нативные Kick-эмоуты (span[data-emote-id] или span[data-emote-name])
+  const allEmoteEls = Array.from(
+    container.querySelectorAll('.sep-emote-wrap, span[data-emote-id], span[data-emote-name]')
+  );
 
-      // Find the nearest preceding non-ZW wrap
-      const prev = wraps[i - 1];
-      if (!prev) continue;
+  for (let i = 1; i < allEmoteEls.length; i++) {
+    const el = allEmoteEls[i];
 
-      // Move img as overlay into prev wrap
-      img.classList.remove('sep-emote-base', 'sep-chat-emote');
-      img.classList.add('sep-emote-overlay');
+    // Нас интересуют только SEP-обёртки с ZW-эмоутом
+    if (!el.classList.contains('sep-emote-wrap')) continue;
+    const img = el.querySelector('.sep-emote-base');
+    if (!img) continue;
+    const e = emoteMap.get(img.alt);
+    if (!e?.zeroWidth) continue;
+
+    const prev = allEmoteEls[i - 1];
+    if (!prev) continue;
+
+    // Подготавливаем overlay-img
+    img.classList.remove('sep-emote-base', 'sep-chat-emote');
+    img.classList.add('sep-emote-overlay');
+
+    if (prev.classList.contains('sep-emote-wrap')) {
+      // ── Случай 1: предыдущий уже SEP-обёртка ───────────────────────────────
+      // Просто перемещаем overlay внутрь
       prev.appendChild(img);
-      wrap.remove();
+      el.remove();
+
+    } else {
+      // ── Случай 2: предыдущий — нативный Kick-эмоут ─────────────────────────
+      // Создаём новую SEP-обёртку, переносим в неё Kick-span + ZW overlay
+      const wrap = document.createElement('span');
+      wrap.className = 'sep-emote-wrap sep-emote-wrap--kick-native';
+
+      // Вставляем обёртку перед Kick-спаном и переносим span внутрь
+      prev.parentNode.insertBefore(wrap, prev);
+      wrap.appendChild(prev);
+      wrap.appendChild(img);
+
+      // Убираем пустую ZW-обёртку
+      el.remove();
+
+      // Обновляем ссылку в массиве, чтобы следующая итерация работала корректно
+      allEmoteEls[i - 1] = wrap;
     }
   }
+}
 
   // ─── Chat observer ───────────────────────────────────────────────────────────
   let chatObserver = null;
@@ -749,7 +802,7 @@
   // for the custom DOM event it dispatches on emote set changes.
   function listenForEmoteSetChanges(channel) {
     let refreshDebounce = null;
-    document.addEventListener('sep-7tv-motes-picker-emote-set-changed', () => {
+    document.addEventListener('sep-7tv Emote picker-emote-set-changed', () => {
       clearTimeout(refreshDebounce);
       refreshDebounce = setTimeout(() => refreshEmotes(channel), 500);
     });
@@ -809,7 +862,7 @@
 
     // Wait for Kick's send button to appear (confirms chat is ready)
     try {
-      await waitFor('#send-message-button', 20000);
+      await waitFor('#send-message-button', 2000);
     } catch {
       console.warn('[SEP] send-message-button not found — chat may not be loaded');
       return;

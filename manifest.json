@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "[Kick] 7TV Emote Picker ",
+  "name": "[kick.com] 7TV Emote Picker ",
   "version": "1.54.26",
   "description": "7TV emote picker for Kick.com chat",
   "icons": {
@@ -15,8 +15,10 @@
   "host_permissions": [
     "https://kick.com/*",
     "*://*.kick.com/*",
+     "https://dashboard.kick.com/*",
      "https://files.kick.com/*",
-    "https://7tv.app/*",
+     "https://7tv.app/*",
+     "https://7tv.app/emote-sets/*",
     "https://7tv.io/*",
     "*://7tv.io/*",
     "*://events.7tv.io/*",
@@ -30,6 +32,7 @@
     {
       "matches": [
         "*://*.kick.com/*",
+         "https://dashboard.kick.com/*",
         "https://kick.com/*"
       ],
       "js": [
@@ -37,7 +40,8 @@
           "chat/emote-events.js",
           "chat/send_in-chat_from-popup-emote.js",
           "chat/autocomplete.js",
-          "chat/mod-actions_deleted_messages.js" 
+          "chat/mod-actions_deleted_messages.js" ,
+           "emoteSets_selectall.js"
        ],
       "run_at": "document_idle" 
      
